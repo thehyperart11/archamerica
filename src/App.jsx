@@ -22,7 +22,7 @@ const App = () => {
     // uploadData()
     //   .then(() => console.log("Data uploaded"))
     //   .catch((error) => console.log(error));
-    const docRef = doc(db, "real-estate-clients", "barudoni");
+    const docRef = doc(db, "real-estate-clients", "archamerica");
     getDoc(docRef)
       .then((data) => setContentData(data.data()))
       .catch(() => setContentData(null));
